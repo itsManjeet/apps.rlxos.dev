@@ -2,7 +2,6 @@ import type {Metadata} from "next";
 import "@/styles/globals.css";
 import PrelineScript from "@/components/PrelineScript";
 import {NavigationBar} from "@/components/NavigationBar";
-import {Footer} from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Bazaar",
@@ -19,7 +18,6 @@ export default function RootLayout({
     <body>
     <NavigationBar />
     {children}
-    <Footer />
     </body>
     <PrelineScript />
     </html>
